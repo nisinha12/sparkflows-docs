@@ -10,3 +10,14 @@ Feature selection techniques are generally grouped into those that use the targe
 .. figure:: ../_assets/nid/SelectionTechniques.png
    :alt: Overview of Selection Techniques
    :width: 90%
+
+Statistical methods are popular for scoring input features, such as correlation. The features can then be ranked by their scores and a subset with the largest scores used as input to a model. The choice of statistical measure depends on the data types of the input variables and a review of different statistical measures that can be used.
+
+Additionally, there are different common feature selection use cases we may encounter in a predictive modeling project, such as:
+
+* Categorical inputs for a classification target variable.
+* Numerical inputs for a classification target variable.
+* Numerical inputs for a regression target variable.
+* When a mixture of input variable data types a present, different filter methods can be used. Alternately, a wrapper method such as the popular RFE method can be used that is agnostic to the input variable type.
+
+The broader field of scoring the relative importance of input features is referred to as feature importance and many model-based techniques exist whose outputs can be used to aide in interpreting the model, interpreting the dataset, or in selecting features for modeling.
