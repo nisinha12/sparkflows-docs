@@ -17,7 +17,7 @@ Recall that data may have one of a few types, such as numeric or categorical, wi
     
 The figure below provides an overview of this same breakdown of high-level data types.
 
-.. figure:: ../_assets/nid/_assets/nid/DataVariableTypes.png
+.. figure:: ../_assets/nid/DataVariableTypes.png
    :alt: Overview of Data Variable Types
    :width: 90%
    
