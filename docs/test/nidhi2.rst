@@ -18,6 +18,6 @@ Nevertheless, there are general data cleaning operations that can be performed, 
 * Imputing missing values using statistics or a learned model.
 * Data cleaning is an operation that is typically performed first, prior to other data preparation operations.
 
-.. figure:: _assets/nid/DataCleaning.png
+.. figure:: ../_assets/nid/DataCleaning.png
    :alt: Overview of Data Cleaning
    :width: 90%
