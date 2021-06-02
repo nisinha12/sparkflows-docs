@@ -23,3 +23,8 @@ Other approaches exist that discover a lower dimensionality reduction. We might 
 * Linear Discriminant Analysis (LDA)
 
 Sometimes manifold learning algorithms can also be used, such as Kohonen self-organizing maps and t-SNE.
+
+.. figure:: ../_assets/nid/DimensionalityReduction.png
+   :alt: Overview of Dimensionality Reduction Techniques 
+   :width: 90%
+   
