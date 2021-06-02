@@ -36,11 +36,12 @@ The probability distribution for numerical variables can be changed.
 
 For example, if the distribution is nearly Gaussian, but is skewed or shifted, it can be made more Gaussian using a power transform. Alternatively, quantile transforms can be used to force a probability distribution, such as a uniform or Gaussian on a variable with an unusual natural distribution.
 
-Power Transform: Change the distribution of a variable to be more Gaussian.
-Quantile Transform: Impose a probability distribution such as uniform or Gaussian.
+* **Power Transform:** Change the distribution of a variable to be more Gaussian.
+* **Quantile Transform:** Impose a probability distribution such as uniform or Gaussian.
+
 An important consideration with data transforms is that the operations are generally performed separately for each variable. As such, we may want to perform different operations on different variable types.
 
-.. figure:: ../_assets/nid/_assets/nid/DataTransforms.png
+.. figure:: ../_assets/nid/DataTransforms.png
    :alt: Overview of Data Transforms
    :width: 90%
 
